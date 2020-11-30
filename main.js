@@ -82,7 +82,6 @@ $(document).ready(function () {
       unitPrice: p,
       amount: amt
     };
-    console.log({ item });
     data.push(item);
     renderDataTable();
   });
